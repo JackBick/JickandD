@@ -1,4 +1,4 @@
-from class_Sprit import Sprite
+from class_Sprite import Sprite
 
 class Player(Sprite):
     def move(self,direction):
