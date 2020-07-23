@@ -8,3 +8,6 @@ class Game:
             for j in range(len(self.board[i])):
                 print(self.board[i][j],end ="")
             print()
+
+    def update_player(self,player):
+        self.board[self.player.x][self.player.y]="P"
