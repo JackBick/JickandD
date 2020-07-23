@@ -11,3 +11,13 @@ while True:
     _player.move(move_input)
     _game.update_player(_player)
     _game.board_print()
+    _sfnaskjfhdsfsadjlksd
+    _sfnaskjfhdsfsadjlksdasdf
+    _sfnaskjfhdsfsadjlksdsadf
+    sda
+    self.fail('_sfnaskjfhdsfsadjlksdfsa
+    def _sfnaskjfhdsfsadjlksdfsadfsad
+    fd
+    sa
+    (arg):
+        pass')
