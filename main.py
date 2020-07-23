@@ -4,6 +4,8 @@ from class_Player import Player
 
 _player = Player(0,0,0,0,0)
 _game = Game(8,8)
+_game.update_player(_player)
+_game.board_print()
 
 while True:
     move_input = input("Please enter a move ")
