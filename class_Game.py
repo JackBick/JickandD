@@ -6,8 +6,11 @@ class Game:
     def board_print(self):
         for i in range(len(self.board[0])):
             for j in range(len(self.board[i])):
-                print(self.board[i][j],end ="")
+                print(self.board[j][i],end ="")
             print()
 
     def update_player(self,player):
         self.board[player.x][player.y]="P"
+
+    def old_player(self,player):
+        self.board[player.x][player.y]="0"
