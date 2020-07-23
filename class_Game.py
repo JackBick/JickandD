@@ -13,6 +13,8 @@ class Game:
 
     def update_player(self,player):
         self.board[player.x][player.y].output="P"
+        self.board[player.x][player.y].has_player=True
 
     def old_player(self,player):
-        self.board[player.x][player.y].output=" "
+        self.board[player.x][player.y].output=self.board[player.x][player.y].original_tile
+        self.board[player.x][player.y].has_player=False

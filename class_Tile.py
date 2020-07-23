@@ -4,3 +4,5 @@ class Tile():
         self.is_wall=False
         self.has_player=False
         self.output=" "
+        self.torch=Torch()
+        self.original_tile="a"
