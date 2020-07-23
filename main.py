@@ -9,7 +9,7 @@ _game.board_print()
 
 while True:
     move_input = input("Please enter a move ")
-    #_game.old_player(_player)
-    #_player.move(move_input)
-    #_game.update_player(_player)
+    _game.old_player(_player)
+    _player.move(move_input)
+    _game.update_player(_player)
     _game.board_print()

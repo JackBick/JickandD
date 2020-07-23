@@ -2,7 +2,7 @@ from class_Tile import Tile
 
 class Game:
     def __init__(self,x,y):
-        board = [[Tile()] * x for i in range(y)]
+        board = [[Tile() for j in range(x)] for i in range(y)]
         self.board=board
 
     def board_print(self):
