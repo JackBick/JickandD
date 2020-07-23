@@ -8,5 +8,5 @@ class Player(Sprite):
       	    self.y +=1
         if direction == "a":
       	    self.x -=1
-        if directiion == "d":
+        if direction == "d":
       	    self.x +=1
