@@ -10,4 +10,4 @@ class Game:
             print()
 
     def update_player(self,player):
-        self.board[self.player.x][self.player.y]="P"
+        self.board[player.x][player.y]="P"
